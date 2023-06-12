@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>10</title>    
+    <style>
+    @keyframes myanimation{
+		0%   {background:red; left:10px; top:10px;}
+		15%  {background:rgb(255, 234, 0); left:10px; top:10px;}
+		25%  {background:rgb(149, 255, 0); left:310px; top:10px;}
+		50%  {background:rgb(0, 255, 213); left:310px; top:210px;}
+		75%  {background:rgb(23, 0, 128); left:10px; top:210px;}
+		100% {background:rgb(234, 0, 255); left:10px; top:10px;}
+    }
+	.box {
+		width: 100px;
+	  	height: 100px;  
+	  	background-color: lightblue;
+	  	border: 1px dotted black; 
+	  	text-align: center;	 
+	  	line-height: 100px; 
+	  	position: absolute;	
+	  	animation: myanimation 8s ease-in-out alternate infinite; 
+	}
+    </style>    
+</head>
+
+<body>
+	<div class="box">BOX</div>
+</body>
+
+</html>
